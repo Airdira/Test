@@ -1,4 +1,3 @@
-print( 'test' )
---[[
-test #2
-]]
+local plugin = PluginManager:CreatePlugin()
+local Toolbar = plugin:CreateToolbar( 'test' )
+local Button = Toolbar:CreateButton( 'test', 'test2', '' )
